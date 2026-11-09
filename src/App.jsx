@@ -12,7 +12,7 @@ import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/WEB-">
       <ScrollToTop />
       <Navbar />
       <Routes>
