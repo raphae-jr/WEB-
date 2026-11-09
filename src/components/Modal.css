@@ -1,0 +1,10 @@
+.modal-backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 22px; background: rgb(13 13 13 / 74%); }
+.modal-panel { width: min(100%, 680px); max-height: min(88vh, 900px); overflow: auto; background: var(--color-cream); border: 1px solid rgb(200 164 107 / 45%); }
+.modal-large { width: min(100%, 900px); }
+.modal-heading { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 26px; background: var(--color-cream); border-bottom: 1px solid var(--color-warm-gray); }
+.modal-heading h2 { margin: 0; font-size: 24px; font-weight: 500; }
+.modal-content { padding: 25px 26px 30px; }
+.icon-button { display: grid; width: 38px; height: 38px; flex: 0 0 auto; place-items: center; border: 1px solid var(--color-warm-gray); background: transparent; color: var(--color-black); cursor: pointer; }
+.icon-button:hover { border-color: var(--color-gold); }
+@media (max-width: 480px) { .modal-backdrop { padding: 10px; } .modal-heading { padding: 16px; } .modal-content { padding: 18px 16px 22px; } }
+.modal-small { width: min(100%, 460px); }
