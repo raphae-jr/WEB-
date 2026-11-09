@@ -57,6 +57,17 @@ vercel.json
 
 ## Deploy
 
+### GitHub Pages
+
+Repository ini menggunakan GitHub Actions untuk build Vite dan menerbitkan folder `dist/`.
+
+1. Buka **Settings → Pages** pada repository.
+2. Pada **Build and deployment → Source**, pilih **GitHub Actions**.
+3. Push perubahan ke branch `main` atau jalankan workflow **Deploy Grandvell Hotel to GitHub Pages** melalui tab **Actions**.
+4. Setelah workflow selesai dengan status hijau, situs tersedia di https://raphae-jr.github.io/WEB-/.
+
+Vite dan React Router telah dikonfigurasi untuk base path `/WEB-/`.
+
 ### Vercel
 
 1. Push proyek ke repository Git.
